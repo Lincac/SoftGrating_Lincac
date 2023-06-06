@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{ffcdbd42-ee3a-4813-82cf-e0a2b5221d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{c9ac5323-24ec-4cbb-8eff-ba3a7bdcf64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Math">
+      <UniqueIdentifier>{e0834248-adbc-4a7f-9b7e-da3779e97766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\PipeLine">
+      <UniqueIdentifier>{88f878db-06a4-4684-98cd-263b989f03c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Core">
+      <UniqueIdentifier>{7493b55f-d20f-4f3e-851c-9f92819ad4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\stb_image">
+      <UniqueIdentifier>{44062b40-80fa-4cbd-958d-9645538ec7c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="glad.c">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="mat.cpp">
+      <Filter>include\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>include\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_write.cpp">
+      <Filter>include\stb_image</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat.h">
+      <Filter>include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadModel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeLine.h">
+      <Filter>include\PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Defered.h">
+      <Filter>include\PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Forward.h">
+      <Filter>include\PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>include\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
